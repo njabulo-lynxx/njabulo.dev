@@ -1,47 +1,38 @@
-@media (max-width: 850px) {
-  .heading {
-    font-size: 35px;
-  }
-}
+/* Mobile defaults */
 
-@media (max-width: 740px) {
-  .hero {
-    flex-direction: column-reverse;
-  }
-}
-
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .navbar {
-    padding: 0 20px;
+    padding: 0 50px;
   }
 
   .nav-items a span {
-    display: none;
+    display: inline;
   }
+}
 
-  .nav-items a:last-child {
-    color: var(--text-color);
-    background-color: transparent;
-    padding: 0;
-  }
+@media (min-width: 700px) {
+    .container {
+      flex-direction: row;
+      align-items: center;
+    }
 
-  .nav-items a {
-    font-size: 22px;
-  }
+    .hero {
+      flex-direction: row;
+      align-items: center;
+    }
 
-  .hero {
-    padding: 0 20px;
-  }
+    .hero-content {
+      width: 50%;
+    }
 
-  .heading {
-    font-size: 30px;
-  }
+    .image-container {
+      width: 50%;
+      height: 350px;
+      order: 0;
+    }
 
-  .skills {
-    padding: 0 20px;
-  }
+    .hero-img {
+      width: 300px;
+    }
 
-  .skill-name {
-    font-size: 16px;
-  }
 }
