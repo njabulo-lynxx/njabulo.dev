@@ -1,6 +1,6 @@
 :root {
   --bg-color: rgb(243, 241, 241);
-  --text-color: rgba(50, 60, 70);
+  --text-color: rgb(50, 60, 70);
   --accent: rgb(44, 118, 192);
 }
 
@@ -17,7 +17,6 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg-color);
-  margin: 0;
 }
 
 a {

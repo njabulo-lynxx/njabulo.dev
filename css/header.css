@@ -1,33 +1,37 @@
-.navbar {
+.site-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
-  padding: 0 20px;
+  padding: 20px;
 }
 
-.nav-title a {
+.site-brand {
   color: var(--text-color);
   font-size: 22px;
   font-weight: 600;
 }
 
-.nav-items a {
+.nav-links a {
   color: var(--text-color);
   margin: 0 10px;
 }
 
-.nav-items a:last-child {
-  color: var(--bg-color);
+.contact-link {
   background-color: var(--text-color);
   padding: 5px 15px;
   border-radius: 8px;
 }
 
-.nav-items a span {
+.contact-link .nav-icon,
+.contact-link .nav-label {
+  color: var(--bg-color);
+}
+
+.nav-label {
   display: none; 
 }
 
-.nav-items a:hover {
+.nav-icon:hover,
+.nav-label:hover {
   color: var(--accent);
 }

@@ -1,11 +1,9 @@
-/* Mobile defaults */
-
 @media (min-width: 600px) {
-  .navbar {
-    padding: 0 50px;
+  .site-nav {
+    padding: 20px 50px;
   }
 
-  .nav-items a span {
+  .nav-label {
     display: inline;
   }
 }
