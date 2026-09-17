@@ -1,6 +1,6 @@
 @media (min-width: 600px) {
   .site-nav {
-    padding: 20px 50px;
+    padding-inline: 50px;
   }
 
   .nav-label {
