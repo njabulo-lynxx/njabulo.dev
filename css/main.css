@@ -1,16 +1,27 @@
 .hero {
-  padding: 30px 20px;
-  gap: 30px;
-}
-
-.container {
-  width: min(100% - 2rem, 1200px);
-  margin-inline: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-inline: 20px;
+  padding-block: 10px;
+
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
 }
 
-.heading {
+.hero-image {
+  width: 200px;
+  max-width: 100%;
+  border-radius: 50%;
+  height: auto; /* Keeps the image responsive */
+}
+
+.hero-content {
+  flex: 2;
+}
+
+.hero h1 {
   text-align: center;
   font-size: 35px;
 }
@@ -19,38 +30,22 @@
   width: 100%;
 }
 
-.links {
-  margin-top: 10px;
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.links a {
-  display: inline-block;
+.hero-actions a {
   padding: 5px 10px;
   border: 2px solid var(--accent);
   border-radius: 5px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  transition: .1s;
+  transition: color 0.1s, border-color 0.1s;
 }
 
-.links a:hover {
+.hero-actions a:hover {
   color: var(--text-color);
-  border: 2px solid var(--text-color);
-}
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  order: -1; 
-}
-
-.hero-img {
-  width: 200px;
-  max-width: 100%;
-  border-radius: 50%;
-  height: auto; /* Keeps the image responsive */
+  border-color: var(--text-color);
 }
 
 .skills {
@@ -62,18 +57,19 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .skill {
   display: flex;
-  justify-content: left;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
 
   width: 180px;
   padding: 10px 20px;
-  margin: 10px;
-  border: 1.5px solid rgb(211, 211, 211);
+  border: 1px solid var(--border-color);
   border-radius: 5px;
 }
 

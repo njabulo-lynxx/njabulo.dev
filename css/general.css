@@ -2,6 +2,7 @@
   --bg-color: rgb(243, 241, 241);
   --text-color: rgb(50, 60, 70);
   --accent: rgb(44, 118, 192);
+  --border-color: rgb(211, 211, 211);
 }
 
 * {

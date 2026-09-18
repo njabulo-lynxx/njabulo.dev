@@ -8,28 +8,23 @@
   }
 }
 
-@media (min-width: 700px) {
-    .container {
-      flex-direction: row;
-      align-items: center;
-    }
+@media (min-width: 680px) {
+  .hero {
+    flex-direction: row;
+  }
 
-    .hero {
-      flex-direction: row;
-      align-items: center;
-    }
+  .hero h1 {
+    text-align: left;
+  }
 
-    .hero-content {
-      width: 50%;
-    }
+  .hero-content {
+    max-width: 650px;
+  }
 
-    .image-container {
-      width: 50%;
-      order: 0;
-    }
-
-    .hero-img {
-      width: 300px;
-    }
+  .hero-image {
+    order: 1;
+    flex: 1;
+    max-width: 280px;
+  }
 
 }
