@@ -24,27 +24,14 @@
   gap: 6px;
 }
 
-.nav-icon,
-.nav-label {
+.nav-links a {
   color: var(--text-color);
 }
 
-.contact-link {
-  background-color: var(--text-color);
-  padding: 5px 15px;
-  border-radius: 8px;
-}
-
-.contact-link .nav-icon,
-.contact-link .nav-label {
-  color: var(--bg-color);
-}
-
-.nav-label {
+.nav-links span {
   display: none; 
 }
 
-.nav-icon:hover,
-.nav-label:hover {
-  color: var(--accent);
+.nav-links a:hover {
+  color: var(--accent-color);
 }

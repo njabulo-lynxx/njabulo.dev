@@ -26,10 +26,6 @@
   font-size: 35px;
 }
 
-.hero-description {
-  width: 100%;
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -38,7 +34,7 @@
 
 .hero-actions a {
   padding: 5px 10px;
-  border: 2px solid var(--accent);
+  border: 2px solid var(--accent-color);
   border-radius: 5px;
   transition: color 0.1s, border-color 0.1s;
 }
@@ -62,7 +58,6 @@
 
 .skill {
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
