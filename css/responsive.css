@@ -11,20 +11,21 @@
 @media (min-width: 680px) {
   .hero {
     flex-direction: row;
+    
   }
 
   .hero h1 {
     text-align: left;
   }
 
-  .hero-content {
-    max-width: 650px;
+  .hero-description {
+    max-width: 550px;
   }
 
   .hero-image {
     order: 1;
     flex: 1;
-    max-width: 280px;
+    max-width: 280px; 
   }
 
 }
