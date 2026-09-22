@@ -7,13 +7,17 @@ buttons.forEach(function(button) {
 
     const target = event.target.dataset.target;
     const targetElement = document.getElementById(target);
-    console.log(target)
 
     groups.forEach(function(group) {
       group.style.display = "none";
     });
 
+    buttons.forEach(function(button) {
+      button.classList.remove("active");
+    });
+
     targetElement.style.display = "block";
+    event.target.classList.add("active");
 
   });
 

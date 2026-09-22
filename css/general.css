@@ -1,4 +1,8 @@
 :root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --blue: rgb(0, 0, 255);
+  
   --bg-color: rgb(243, 241, 241);
   --text-color: rgb(50, 60, 70);
   --accent-color: rgb(44, 118, 192);
