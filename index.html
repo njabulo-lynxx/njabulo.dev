@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 
+    <!-- Local Javascript -->
+    <script defer src="scripts/skills-interface.js"></script>
+
     <title>njabulo.dev</title>
   </head>
   <body>
@@ -104,6 +107,7 @@
 
         <h2 class="section-title">Skills</h2>
 
+        <!--
         <ul class="skills-list">
 
           <li class="skill">
@@ -135,8 +139,35 @@
           </li>
 
         </ul>
+        -->
+
+        <div class="skills-interface">
+          <div class="group-selector">
+            <button class="group-button" data-target="web-development">Web Development</button>
+            <button class="group-button" data-target="software-databases">Software & Databases</button>
+            <button class="group-button" data-target="development-tools">Development Tools</button>
+          </div>
+          <div class="group-content">
+            <ul id="web-development">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>etc..</li>
+            </ul>
+            <ul id="software-databases">
+              <li>Item 4</li>
+              <li>Item 5</li>
+              <li>etc..</li>
+            </ul>
+            <ul id="development-tools">
+              <li>Item 7</li>
+              <li>Item 8</li>
+              <li>etc..</li>
+            </ul>
+          </div>
+        </div>
 
       </section>
     </main>
+
   </body>
 </html>
