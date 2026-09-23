@@ -64,7 +64,7 @@
   background: var(--white);
   box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  padding: 10px;
+  border-top: 5px solid var(--accent-color);
 }
 
 .group-selector {
@@ -72,18 +72,49 @@
   flex-direction: column;
 }
 
+.group-button + .group-button {
+  border-top: 2px solid var(--white);
+}
+
 .group-button {
   padding: 10px 15px;
   background: var(--bg-color);
+  color: var(--accent-color);
   border: none;
   font-family: inherit;
+  font-weight: 700;
   text-align: center;
   cursor: pointer;
+}
+
+.group-button:hover {
+  color: var(--blue);
+  font-size: 20px;
+  background-color: var(--white);
+}
+
+.group-button.active {
+  color: var(--blue);
+  font-size: 20px;
+}
+
+.group-content {
+  padding: 0 10px;
 }
 
 .group-content ul {
   display: none;
   list-style: none;
+  text-align: center;
+}
+
+.group-content li {
+  padding: 12px 10px;
+  border-bottom: 2px solid var(--bg-color);
+}
+
+.group-content li:last-child {
+  border-bottom: none;
 }
 
 .skills {
