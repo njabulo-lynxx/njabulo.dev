@@ -8,6 +8,7 @@
 .section-title {
   text-align: center;
   font-size: 30px;
+  margin: 10px;
 }
 
 /* hero section */
@@ -153,13 +154,17 @@
   gap: 15px;
 }
 
+.project-technologies {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
 .project-links-group {
   display: flex;
   justify-content: space-between;
 }
 
-.project-technologies {
-  display: flex;
-  list-style: none;
-  gap: 12px;
+.project-links-group a:hover {
+  color: var(--text-color);
 }
