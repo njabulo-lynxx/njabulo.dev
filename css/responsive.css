@@ -33,7 +33,7 @@
   .projects-list {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 2rem;
   }
 }

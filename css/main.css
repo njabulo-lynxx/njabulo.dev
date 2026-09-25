@@ -134,16 +134,16 @@
 
 .project-card {
   width: min(100% - 2rem, 400px);
-  height: min(100%, 860px);
+  height: min(100%, 840px);
   background: var(--white);
   box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .project-image {
   max-width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  display: block;
 }
 
 .project-content {
@@ -153,11 +153,6 @@
   gap: 15px;
 }
 
-.project-technologies-group {
-  display: flex;
-  flex-direction: column;
-}
-
 .project-links-group {
   display: flex;
   justify-content: space-between;
@@ -165,9 +160,6 @@
 
 .project-technologies {
   display: flex;
-  gap: 12px;
-}
-
-.project-technologies li {
   list-style: none;
+  gap: 12px;
 }
