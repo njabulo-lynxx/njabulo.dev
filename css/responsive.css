@@ -28,3 +28,12 @@
     max-width: 280px; 
   }
 }
+
+@media (min-width: 870px) {
+  .projects-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+}
